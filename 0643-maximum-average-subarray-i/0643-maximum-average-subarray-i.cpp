@@ -14,10 +14,12 @@ public:
         
         double res = sum/k;
 
-        while(high < n-1){
+        while(high < n){
             
             low++;
             high++;
+
+            if(high == n) break;
 
            
 
