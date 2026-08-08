@@ -1,25 +1,36 @@
 class Solution {
 public:
     int thirdMax(vector<int>& nums) {
-        sort(nums.begin(),nums.end());
+        long long first = LLONG_MIN;
+        long long second = LLONG_MIN;
+        long long third = LLONG_MIN;
 
-        int n = nums.size();
-        int cnt = 0;
-        
+        for(int x : nums){
+            if(x == first || x == second || x == third) continue;
 
-        for(int i=n-1; i>= 0 ;i-- ){
 
-            if(i == n-1 || nums[i]!=nums[i+1]){
-                cnt++;
-
-            }
-            if(cnt==3){
-                return nums[i];
+            if(x > first){
+                third = second;
+                second = first;
+                first = x;
             }
 
-            
+            else if(x > second){
+                third = second;
+                second = x;
+            }
+
+            else if (x > third){
+                third = x;
+            }
         }
-        return nums[n-1];
-        
+
+        // if 3rd mx not exist then it will return maxm value which is first one only
+
+        if(third == LLONG_MIN){
+            return first;
+        }
+
+        return third;      
     }
 };
