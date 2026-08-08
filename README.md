@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0075-sort-colors) |
 | [0414-third-maximum-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0414-third-maximum-number) |
+| [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
 ## Two Pointers
 |  |
 | ------- |
@@ -45,4 +46,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0547-number-of-provinces) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
