@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
+| [1765-map-of-highest-peak](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1765-map-of-highest-peak) |
 ## Two Pointers
 |  |
 | ------- |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
+| [1765-map-of-highest-peak](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1765-map-of-highest-peak) |
 ## Union-Find
 |  |
 | ------- |
@@ -68,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
+| [1765-map-of-highest-peak](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1765-map-of-highest-peak) |
 ## Dynamic Programming
 |  |
 | ------- |
