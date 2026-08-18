@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0414-third-maximum-number) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
+| [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
 | [0904-fruit-into-baskets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0904-fruit-into-baskets) |
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0076-minimum-window-substring) |
 | [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
+| [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
 | [0904-fruit-into-baskets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0904-fruit-into-baskets) |
 ## Matrix
 |  |
@@ -138,4 +140,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0127-word-ladder](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0127-word-ladder) |
+## Binary Search
+|  |
+| ------- |
+| [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
+## Prefix Sum
+|  |
+| ------- |
+| [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
 <!---LeetCode Topics End-->
