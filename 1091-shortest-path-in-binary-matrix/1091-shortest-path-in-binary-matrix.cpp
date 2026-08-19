@@ -8,8 +8,9 @@ public:
         queue<pair<pair<int,int>,int>> q;
 
         if(grid[0][0] != 0) return -1;
-        
-       
+        vis[0][0] = 1;
+
+
         q.push({{0,0},1}); 
 
         while(!q.empty()){
