@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1765-map-of-highest-peak](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1765-map-of-highest-peak) |
 ## Two Pointers
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -68,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1765-map-of-highest-peak) |
 ## Union-Find
 |  |
@@ -77,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0785-is-graph-bipartite) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
+| [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
 | ------- |
@@ -103,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1765-map-of-highest-peak) |
 ## Dynamic Programming
 |  |
@@ -147,8 +152,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
+| [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
+## Dijkstra's Algorithm
+|  |
+| ------- |
+| [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 <!---LeetCode Topics End-->
