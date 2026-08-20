@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
 | [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 ## Breadth-First Search
@@ -67,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0547-number-of-provinces) |
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
 | [0785-is-graph-bipartite](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -88,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0210-course-schedule-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Sliding Window
 |  |
 | ------- |
@@ -114,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0221-maximal-square](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
 ## Hash Table
 |  |
 | ------- |
@@ -160,9 +164,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 ## Dijkstra's Algorithm
 |  |
 | ------- |
 | [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
+## Shortest Path
+|  |
+| ------- |
+| [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
