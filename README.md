@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0016-3sum-closest) |
+| [0053-maximum-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0075-sort-colors) |
 | [0130-surrounded-regions](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0200-number-of-islands) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0053-maximum-subarray) |
 | [0221-maximal-square](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -197,4 +199,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0053-maximum-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0053-maximum-subarray) |
 <!---LeetCode Topics End-->
