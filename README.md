@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0221-maximal-square) |
+| [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 | [0414-third-maximum-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0414-third-maximum-number) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
@@ -30,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0075-sort-colors) |
+| [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 ## Sorting
 |  |
 | ------- |
@@ -174,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 | [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
 | [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 ## Prefix Sum
@@ -212,4 +215,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0053-maximum-subarray) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
+## Pigeonhole Principle
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 <!---LeetCode Topics End-->
