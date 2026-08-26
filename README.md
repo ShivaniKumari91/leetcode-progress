@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
+| [0827-making-a-large-island](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0827-making-a-large-island) |
 | [0904-fruit-into-baskets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0904-fruit-into-baskets) |
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0827-making-a-large-island](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0827-making-a-large-island) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0785-is-graph-bipartite) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0827-making-a-large-island](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0827-making-a-large-island) |
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1091-shortest-path-in-binary-matrix) |
@@ -86,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0785-is-graph-bipartite) |
+| [0827-making-a-large-island](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0827-making-a-large-island) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
@@ -117,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0221-maximal-square](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
+| [0827-making-a-large-island](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0827-making-a-large-island) |
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1091-shortest-path-in-binary-matrix) |
