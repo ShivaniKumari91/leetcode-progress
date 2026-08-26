@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0075-sort-colors) |
+| [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 ## Sorting
 |  |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0127-word-ladder) |
+| [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
 | [0904-fruit-into-baskets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0904-fruit-into-baskets) |
 ## String
 |  |
@@ -226,5 +228,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
+## Math
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
