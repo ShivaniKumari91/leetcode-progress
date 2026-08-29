@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1765-map-of-highest-peak](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1765-map-of-highest-peak) |
 ## Two Pointers
@@ -145,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Hash Table
 |  |
