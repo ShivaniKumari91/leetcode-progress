@@ -141,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0053-maximum-subarray) |
+| [0070-climbing-stairs](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0070-climbing-stairs) |
 | [0221-maximal-square](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0221-maximal-square) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
 ## Biconnected Component
 |  |
@@ -253,4 +255,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1192-critical-connections-in-a-network](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1192-critical-connections-in-a-network) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
