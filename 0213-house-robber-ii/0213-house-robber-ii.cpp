@@ -2,8 +2,8 @@ class Solution {
 public:
     int maxsum(vector<int>& temp) {
         int n = temp.size();
-        vector<int> dp(n);
-        dp[0] = temp[0];
+        int prev = temp[0];
+        int prev2 = 0;
 
         for(int i = 1; i<n;i++){
             int pick = temp[i];
@@ -11,13 +11,15 @@ public:
 
             if(i > 1){
 
-                pick = pick + dp[i-2];
+                pick = pick + prev2;
             }
-            int notpick = 0 + dp[i-1];
+            int notpick = prev;
 
-            dp[i] = max(pick,notpick);
+            int curr = max(pick,notpick);
+            prev2 = prev;
+            prev = curr;
         }
-        return dp[n-1];
+        return prev;
 
     }   
     int rob(vector<int>& nums) {
