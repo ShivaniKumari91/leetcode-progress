@@ -1,47 +1,51 @@
 class Solution {
 public:
-    int maxsum(vector<int>& temp) {
-        int n = temp.size();
-        int prev = temp[0];
-        int prev2 = 0;
 
-        for(int i = 1; i<n;i++){
-            int pick = temp[i];
-        
+    int maxsum(int i, vector<int>& temp, vector<int>& dp) {
+        if(i == 0)
+            return temp[0];
 
-            if(i > 1){
+        if(i < 0)
+            return 0;
 
-                pick = pick + prev2;
-            }
-            int notpick = prev;
+        if(dp[i] != -1)
+            return dp[i];
 
-            int curr = max(pick,notpick);
-            prev2 = prev;
-            prev = curr;
-        }
-        return prev;
+        int pick = temp[i] + maxsum(i-2, temp, dp);
 
-    }   
+        int notpick = maxsum(i-1, temp, dp);
+
+        return dp[i] = max(pick, notpick);
+    }
+
     int rob(vector<int>& nums) {
-        vector<int> temp1;
-        vector<int> temp2;
+
         int n = nums.size();
 
-        if(n==1) return nums[0];
+        if(n == 1)
+            return nums[0];
 
-        for(int i = 0; i<n; i++){
-            if(i!=0){
+        vector<int> temp1;
+        vector<int> temp2;
+
+        // Exclude first
+        for(int i = 0; i < n; i++) {
+            if(i != 0)
                 temp1.push_back(nums[i]);
-            }
         }
-        for(int i = 0; i<n; i++){
-            if(i!=n-1){
+
+        // Exclude last
+        for(int i = 0; i < n; i++) {
+            if(i != n-1)
                 temp2.push_back(nums[i]);
-            }
         }
-        int ans1 = maxsum(temp1);
-        int ans2 = maxsum(temp2);
-        return max(ans1,ans2);
-        
+
+        vector<int> dp1(temp1.size(), -1);
+        vector<int> dp2(temp2.size(), -1);
+
+        int ans1 = maxsum(temp1.size()-1, temp1, dp1);
+        int ans2 = maxsum(temp2.size()-1, temp2, dp2);
+
+        return max(ans1, ans2);
     }
 };
