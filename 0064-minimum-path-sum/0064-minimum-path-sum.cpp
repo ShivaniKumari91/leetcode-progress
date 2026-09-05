@@ -4,24 +4,47 @@ public:
         int m = grid.size();
         int n = grid[0].size();
 
-        vector<int> prev(n,0);
-        for(int i = 0; i<m; i++){
-            vector<int> temp(n);
-            for(int j = 0; j<n; j++){
-                if(i == 0 && j == 0) temp[j] = grid[i][j];
-                else{
-                    int up = 1e9;
-                    int left = 1e9;
-                    
-                    if(i > 0) up = grid[i][j] + prev[j];
-                    if(j > 0) left = grid[i][j] + temp[j-1];
+        vector<vector<int>> dist(m, vector<int>(n, 1e9));
 
-                    temp[j] = min(up,left);
+        // {cost, {row, col}}
+        priority_queue<
+            pair<int, pair<int,int>>,
+            vector<pair<int, pair<int,int>>>,
+            greater<pair<int, pair<int,int>>>
+        > pq;
+
+        dist[0][0] = grid[0][0];
+        pq.push({grid[0][0], {0, 0}});
+
+        int dr[] = {0, 1};
+        int dc[] = {1, 0};
+
+        while(!pq.empty()) {
+            auto it = pq.top();
+            pq.pop();
+
+            int cost = it.first;
+            int r = it.second.first;
+            int c = it.second.second;
+
+            if(cost > dist[r][c])
+                continue;
+
+            for(int k = 0; k < 2; k++) {
+                int nr = r + dr[k];
+                int nc = c + dc[k];
+
+                if(nr < m && nc < n) {
+                    int newCost = cost + grid[nr][nc];
+
+                    if(newCost < dist[nr][nc]) {
+                        dist[nr][nc] = newCost;
+                        pq.push({newCost, {nr, nc}});
+                    }
                 }
             }
-            prev = temp;
         }
-        return prev[n-1];
-        
+
+        return dist[m-1][n-1];
     }
 };
