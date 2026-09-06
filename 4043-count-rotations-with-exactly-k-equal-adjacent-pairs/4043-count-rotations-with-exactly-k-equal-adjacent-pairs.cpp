@@ -1,23 +1,26 @@
 class Solution {
 public:
     int countRotations(string s, int k) {
-        int n = s.length();
-        int ans = 0;
+        int n = s.size();
 
-        for(int i = 0; i<n; i++){
-            string rotated = s.substr(i) + s.substr(0,i);
-            int score = 0;
+        int score = 0;
 
-            for(int j = 0; j<n-1; j++){
-                if(rotated[j]==rotated[j+1]){
-                    score++;
-                }
-            }
-            if(score == k){
-                ans++;
-            }
+        // Count equal adjacent characters
+        for (int i = 0; i < n - 1; i++) {
+            if (s[i] == s[i + 1])
+                score++;
         }
-        return ans;
-        
+
+        // Check the circular pair
+        if (s[n - 1] == s[0])
+            score++;
+
+        if (k == score)
+            return n - score;
+
+        if (k == score - 1)
+            return score;
+
+        return 0;
     }
 };
