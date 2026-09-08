@@ -4,29 +4,32 @@ public:
         int m = matrix.size();
         int n = matrix[0].size();
         int ans = INT_MAX;
-        vector<vector<int>> dp(m,vector<int>(n));
+        vector<int> prev(n);
         for(int j = 0;j < n; j++){
-            dp[m-1][j] = matrix[m-1][j];
+            prev[j] = matrix[m-1][j];
         }
 
         for(int i = m-2;i >= 0;i--){
+            vector<int> temp(n);
             for(int j = 0; j< n; j++){
                 int leftdiag = 1e9;
                 int rightdiag = 1e9;
 
-                if(j-1 >= 0) leftdiag = matrix[i][j] + dp[i+1][j-1];
+                if(j-1 >= 0) leftdiag = matrix[i][j] + prev[j-1];
 
-                int down = matrix[i][j] + dp[i+1][j]; 
+                int down = matrix[i][j] + prev[j]; 
 
-                if(j+1 < n) rightdiag = matrix[i][j] + dp[i+1][j+1];
+                if(j+1 < n) rightdiag = matrix[i][j] + prev[j+1];
 
-                dp[i][j] = min({leftdiag,down,rightdiag});
+                temp[j] = min({leftdiag,down,rightdiag});
 
                
             }
+            prev = temp;
         }
+
         for(int j = 0; j<n; j++){
-            ans = min(ans,dp[0][j]);
+            ans = min(ans,prev[j]);
         }
         return ans;
         
