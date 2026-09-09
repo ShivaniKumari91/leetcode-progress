@@ -1,138 +1,110 @@
 class Solution {
 public:
-
-    // f() = maximum cherries from current positions
-    // Person 1 -> (r1, c1)
-    // Person 2 -> (r2, c2)
-    //
-    // c2 is not stored because:
-    // r1 + c1 = r2 + c2
-    // Therefore:
-    // c2 = r1 + c1 - r2
-
-    int f(int r1, int c1, int r2,
-          vector<vector<int>>& grid,
-          vector<vector<vector<int>>>& dp) {
-
-        int n = grid.size();
-
-        // Calculate Person 2's column
-        int c2 = r1 + c1 - r2;
-
-
-        // If any position is outside the grid
-        // c2 can also become negative
-        // -1e9 = invalid/impossible path
-        if (r1 >= n || c1 >= n ||
-            r2 >= n || c2 >= n || c2 < 0)
-            return -1e9;
-
-
-        // If any person reaches an obstacle
-        // (-1 means blocked cell)
-        if (grid[r1][c1] == -1 ||
-            grid[r2][c2] == -1)
-            return -1e9;
-
-
-        // Destination reached
-        //
-        // Both persons move exactly 1 step
-        // in every recursive call.
-        // So if Person 1 reaches destination,
-        // Person 2 also reaches destination.
-        if (r1 == n-1 && c1 == n-1)
-            return grid[r1][c1];
-
-
-        // If this state is already calculated,
-        // return stored answer.
-        // This is the Memoization part of DP.
-        if (dp[r1][c1][r2] != -1)
-            return dp[r1][c1][r2];
-
-
-        // Calculate cherries at current positions
-        int cherries = 0;
-
-        // Both persons are on the same cell
-        // Count that cherry only ONCE.
-        if (r1 == r2 && c1 == c2)
-            cherries = grid[r1][c1];
-
-        // Persons are on different cells
-        // Count both cherries.
-        else
-            cherries = grid[r1][c1] + grid[r2][c2];
-
-
-        // Four possible simultaneous moves:
-
-        // RR -> Person 1 Right, Person 2 Right
-        int rr = f(r1, c1+1, r2, grid, dp);
-
-        // RD -> Person 1 Right, Person 2 Down
-        int rd = f(r1, c1+1, r2+1, grid, dp);
-
-        // DR -> Person 1 Down, Person 2 Right
-        int dr = f(r1+1, c1, r2, grid, dp);
-
-        // DD -> Person 1 Down, Person 2 Down
-        int dd = f(r1+1, c1, r2+1, grid, dp);
-
-
-        // Choose the path giving maximum cherries
-        //
-        // Current cherries
-        //        +
-        // Best future path
-        return dp[r1][c1][r2] =
-            cherries + max({rr, rd, dr, dd});
-    }
-
-
     int cherryPickup(vector<vector<int>>& grid) {
 
         int n = grid.size();
+        const int NEG = -1e8;
 
-
-        // 3D DP:
         // dp[r1][c1][r2]
+        // Robot 1 -> (r1, c1)
+        // Robot 2 -> (r2, c2)
         //
-        // c2 is calculated when needed:
+        // c2 is not stored because:
+        // r1 + c1 = r2 + c2
+        //
+        // Therefore:
         // c2 = r1 + c1 - r2
-        //
-        // -1 means state is not calculated yet.
 
         vector<vector<vector<int>>> dp(
-            n,
-            vector<vector<int>>(
-                n,
-                vector<int>(n, -1)
-            )
+            n + 1,
+            vector<vector<int>>(n + 1,
+                vector<int>(n + 1, NEG))
         );
 
+        // Base case:
+        // Both robots reach destination
+        dp[n-1][n-1][n-1] = grid[n-1][n-1];
 
-        // Both persons start from (0,0)
-        int ans = f(0, 0, 0, grid, dp);
+
+        // We are moving BACKWARDS
+        //
+        // Why?
+        // In recursion current state depends on:
+        //
+        // (r1, c1+1, r2)
+        // (r1, c1+1, r2+1)
+        // (r1+1, c1, r2)
+        // (r1+1, c1, r2+1)
+        //
+        // So these states must already be calculated.
+
+        for(int r1 = n-1; r1 >= 0; r1--) {
+
+            for(int c1 = n-1; c1 >= 0; c1--) {
+
+                for(int r2 = n-1; r2 >= 0; r2--) {
+
+                    // Calculate c2
+                    int c2 = r1 + c1 - r2;
+
+                    // c2 invalid
+                    if(c2 < 0 || c2 >= n)
+                        continue;
+
+                    // If any robot is on blocked cell
+                    if(grid[r1][c1] == -1 ||
+                       grid[r2][c2] == -1)
+                        continue;
+
+                    // Destination already initialized
+                    if(r1 == n-1 && c1 == n-1)
+                        continue;
 
 
-        // If no valid path exists,
-        // ans can be -1e9.
-        // Cherries cannot be negative,
-        // so return at least 0.
-        return max(0, ans);
+                    // Calculate cherries collected
+                    int cherry;
+
+                    // Both robots are on SAME cell
+                    // Count its cherry only once
+                    if(r1 == r2 && c1 == c2)
+                        cherry = grid[r1][c1];
+
+                    // Different cells
+                    else
+                        cherry = grid[r1][c1] +
+                                 grid[r2][c2];
+
+
+                    // Four possible movements
+                    //
+                    // Robot 1 = Right
+                    // Robot 2 = Right
+                    int rr = dp[r1][c1+1][r2];
+
+                    // Robot 1 = Right
+                    // Robot 2 = Down
+                    int rd = dp[r1][c1+1][r2+1];
+
+                    // Robot 1 = Down
+                    // Robot 2 = Right
+                    int dr = dp[r1+1][c1][r2];
+
+                    // Robot 1 = Down
+                    // Robot 2 = Down
+                    int dd = dp[r1+1][c1][r2+1];
+
+
+                    // Current cherries +
+                    // best of four possibilities
+                    dp[r1][c1][r2] =
+                        cherry + max({rr, rd, dr, dd});
+                }
+            }
+        }
+
+        // Starting position:
+        // Robot 1 = (0,0)
+        // Robot 2 = (0,0)
+        return max(0, dp[0][0][0]);
     }
 };
-
-//🧠 Super-short revision
-
-//State       → f(r1,c1,r2)
-//c2          → r1+c1-r2
-//Invalid     → -1e9
-//Same cell   → cherry once
-//Different   → both cherries
-//Moves       → RR, RD, DR, DD
-//Choose      → max(4 moves)
-//DP          → store state
-//Final       → max(0, ans)
