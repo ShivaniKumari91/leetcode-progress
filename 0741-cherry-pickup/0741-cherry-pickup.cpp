@@ -18,7 +18,7 @@ public:
         vector<vector<vector<int>>> dp(
             n + 1,
             vector<vector<int>>(n + 1,
-                vector<int>(n + 1, NEG))
+                vector<int>(n + 1, -1e8))
         );
 
         // Base case:
