@@ -11,26 +11,29 @@ public:
 
         int target = totalsum/2;
 
-        vector<vector<bool>> dp(n,vector<bool>(target+1,false));
+        vector<bool> prev(target+1,false);
 
-        for(int i = 0; i<n; i++){
-            dp[i][0] = true;
-        }
-        if(nums[0] <= target) dp[0][nums[0]] = true;
+        prev[0] = true;
+
+       
+        if(nums[0] <= target) prev[nums[0]] = true;
 
         for(int ind = 1; ind < n; ind++){
+            vector<bool> cur(target+1);
+            cur[0] = true;
             for(int t = 1; t <= target; t++){
-                int notTake = dp[ind-1][t];
+                int notTake = prev[t];
                 int take = false;
 
                 if(nums[ind] <= t){
-                    take = dp[ind-1][t-nums[ind]];
+                    take = prev[t-nums[ind]];
                 }
 
-                dp[ind][t] = take || notTake;
+                cur[t] = take || notTake;
             }
+            prev = cur;
         }
-        return dp[n-1][target];
+        return prev[target];
 
         
     }
