@@ -5,6 +5,7 @@ public:
         int n = nums.size();
 
         int totalSum = 0;
+
         for(int x : nums)
             totalSum += x;
 
@@ -16,36 +17,38 @@ public:
 
         int required = (totalSum - target) / 2;
 
-        vector<vector<int>> dp(
-            n,
-            vector<int>(required + 1, 0)
-        );
+        vector<int> prev(required + 1, 0);
+        vector<int> cur(required + 1, 0);
 
         // Base case
         if(nums[0] == 0)
-            dp[0][0] = 2;
+            prev[0] = 2;
         else
-            dp[0][0] = 1;
+            prev[0] = 1;
 
         if(nums[0] != 0 && nums[0] <= required)
-            dp[0][nums[0]] = 1;
+            prev[nums[0]] = 1;
 
-        // Fill table
         for(int ind = 1; ind < n; ind++) {
+
+            // Current row ko reset karo
+            fill(cur.begin(), cur.end(), 0);
 
             for(int sum = 0; sum <= required; sum++) {
 
-                int notTake = dp[ind - 1][sum];
+                int notTake = prev[sum];
 
                 int take = 0;
 
                 if(nums[ind] <= sum)
-                    take = dp[ind - 1][sum - nums[ind]];
+                    take = prev[sum - nums[ind]];
 
-                dp[ind][sum] = take + notTake;
+                cur[sum] = take + notTake;
             }
+
+            prev = cur;
         }
 
-        return dp[n - 1][required];
+        return prev[required];
     }
 };
