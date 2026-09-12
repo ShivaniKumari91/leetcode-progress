@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 | [0414-third-maximum-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0414-third-maximum-number) |
 | [0416-partition-equal-subset-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
@@ -164,6 +165,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0221-maximal-square) |
 | [0416-partition-equal-subset-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0494-target-sum) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0741-cherry-pickup](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -292,8 +294,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0494-target-sum) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0494-target-sum) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
