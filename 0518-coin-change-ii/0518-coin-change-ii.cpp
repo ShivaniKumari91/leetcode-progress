@@ -4,31 +4,37 @@ public:
 
         int n = coins.size();
 
-        vector<vector<int>> dp(n + 1,
-                               vector<int>(amount + 1, 0));
+        vector<int> prev(amount + 1, 0);
+        vector<int> cur(amount + 1, 0);
 
-        // amount = 0 → exactly 1 way
-        for(int i = 0; i <= n; i++) {
-            dp[i][0] = 1;
+        // Base case: only coins[0] available
+        for(int target = 0; target <= amount; target++) {
+            if(target % coins[0] == 0)
+                prev[target] = 1;
         }
 
-        for(int i = 1; i <= n; i++) {
-            for(int target = 1; target <= amount; target++) {
+        for(int ind = 1; ind < n; ind++) {
 
-                int notTake = dp[i - 1][target];
+            for(int target = 0; target <= amount; target++) {
 
+                // Don't take current coin
+                int notTake = prev[target];
+
+                // Take current coin
                 int take = 0;
 
-                if(coins[i - 1] <= target) {
-                    take = dp[i][target - coins[i - 1]];
+                if(coins[ind] <= target) {
+                    take = cur[target - coins[ind]];
                 }
 
                 long long ways = 1LL * take + notTake;
 
-                dp[i][target] = min(ways, 1LL * INT_MAX);
+                cur[target] = min(ways, 1LL * INT_MAX);
             }
+
+            prev = cur;
         }
 
-        return dp[n][amount];
+        return prev[amount];
     }
 };
