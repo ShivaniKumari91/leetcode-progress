@@ -1,6 +1,5 @@
 class Solution {
 public:
-
     int longestCommonSubsequence(string text1, string text2) {
 
         int n = text1.size();
@@ -8,11 +7,6 @@ public:
 
         vector<int> prev(m + 1, 0);
         vector<int> curr(m + 1, 0);
-
-        // Base Case
-        for(int j = 0; j <= m; j++) {
-            prev[j] = 0;
-        }
 
         for(int i = 1; i <= n; i++) {
 
