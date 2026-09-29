@@ -1,32 +1,39 @@
 class Solution {
 public:
-    int lcs(string s,string t){
+
+    int lcs(int i, int j, string &s, string &t,
+            vector<vector<int>> &dp) {
+
+        // Base case
+        if(i < 0 || j < 0)
+            return 0;
+
+        // Already calculated
+        if(dp[i][j] != -1)
+            return dp[i][j];
+
+        // Characters match
+        if(s[i] == t[j]) {
+            return dp[i][j] = 1 + lcs(i-1, j-1, s, t, dp);
+        }
+
+        // Characters don't match
+        return dp[i][j] = max(
+            lcs(i-1, j, s, t, dp),
+            lcs(i, j-1, s, t, dp)
+        );
+    }
+
+    int longestPalindromeSubseq(string s) {
+
+        string t = s;
+        reverse(t.begin(), t.end());
+
         int n = s.size();
         int m = t.size();
 
-        vector<vector<int>>dp(n+1,vector<int>(m+1));
+        vector<vector<int>> dp(n, vector<int>(m, -1));
 
-        for(int i = 0; i<n; i++) dp[i][0] = 0;
-        for(int j =0; j<m; j++) dp[0][j] = 0;
-
-        for(int i = 1; i <= n; i++){
-            for(int j = 1; j<=m; j++){
-                if(s[i-1] == t[j-1]){
-                    dp[i][j] = 1 + dp[i-1][j-1];
-                }
-                else{
-                    dp[i][j] = max(dp[i][j-1],dp[i-1][j]);
-                }
-            }
-        }
-        return dp[n][m];
-
-
-    }
-    int longestPalindromeSubseq(string s) {
-        string t = s;
-        reverse(t.begin(),t.end());
-        return lcs(s,t);
-        
+        return lcs(n-1, m-1, s, t, dp);
     }
 };
