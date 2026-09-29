@@ -1,30 +1,27 @@
 class Solution {
 public:
 
-    int lcs(string s, string t) {
+    int lcs(int i, int j, string &s, string &t,
+            vector<vector<int>> &dp) {
 
-        int n = s.size();
-        int m = t.size();
+        // Base case
+        if(i == 0 || j == 0)
+            return 0;
 
-        vector<int> prev(m+1, 0);
-        vector<int> curr(m+1, 0);
+        // Already calculated
+        if(dp[i][j] != -1)
+            return dp[i][j];
 
-        for(int i = 1; i <= n; i++) {
-
-            for(int j = 1; j <= m; j++) {
-
-                if(s[i-1] == t[j-1]) {
-                    curr[j] = 1 + prev[j-1];
-                }
-                else {
-                    curr[j] = max(curr[j-1], prev[j]);
-                }
-            }
-
-            prev = curr;
+        // Characters match
+        if(s[i-1] == t[j-1]) {
+            return dp[i][j] = 1 + lcs(i-1, j-1, s, t, dp);
         }
 
-        return prev[m];
+        // Characters don't match
+        return dp[i][j] = max(
+            lcs(i, j-1, s, t, dp),
+            lcs(i-1, j, s, t, dp)
+        );
     }
 
     int longestPalindromeSubseq(string s) {
@@ -32,11 +29,15 @@ public:
         string t = s;
         reverse(t.begin(), t.end());
 
-        return lcs(s, t);
+        int n = s.size();
+        int m = t.size();
+
+        vector<vector<int>> dp(n+1, vector<int>(m+1, -1));
+
+        return lcs(n, m, s, t, dp);
     }
 
     int minInsertions(string s) {
-
         return s.size() - longestPalindromeSubseq(s);
     }
 };
