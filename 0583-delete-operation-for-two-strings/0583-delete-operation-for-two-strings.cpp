@@ -1,35 +1,33 @@
 class Solution {
 public:
-    int lcs(string text1, string text2) {
+    int lcs(int i, int j, string &s, string &t,
+            vector<vector<int>> &dp) {
 
-        int n = text1.size();
-        int m = text2.size();
+        // Base case
+        if(i == 0 || j == 0)
+            return 0;
 
-        vector<int> prev(m + 1, 0);
-        vector<int> curr(m + 1, 0);
+        // Already calculated
+        if(dp[i][j] != -1)
+            return dp[i][j];
 
-        for(int i = 1; i <= n; i++) {
-
-            for(int j = 1; j <= m; j++) {
-
-                if(text1[i-1] == text2[j-1]) {
-                    curr[j] = 1 + prev[j-1];
-                }
-                else {
-                    curr[j] = max(prev[j], curr[j-1]);
-                }
-            }
-
-            prev = curr;
+        // Characters match
+        if(s[i-1] == t[j-1]) {
+            return dp[i][j] = 1 + lcs(i-1, j-1, s, t, dp);
         }
 
-        return prev[m];
+        // Characters don't match
+        return dp[i][j] = max(
+            lcs(i, j-1, s, t, dp),
+            lcs(i-1, j, s, t, dp)
+        );
     }
     
     int minDistance(string word1, string word2) {
         int n = word1.size();
         int m = word2.size();
-        return n+m - 2*(lcs(word1,word2));
+        vector<vector<int>> dp(n+1,vector<int>(m+1,-1));
+        return n+m - 2*(lcs(n,m,word1,word2,dp));
         
     }
 };
