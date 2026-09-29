@@ -1,33 +1,37 @@
 class Solution {
 public:
-    int lcs(int i, int j, string &s, string &t,
-            vector<vector<int>> &dp) {
+    int lcs(string s, string t) {
+        int n = s.size();
+        int m = t.size();
 
-        // Base case
-        if(i == 0 || j == 0)
-            return 0;
+        vector<vector<int>> dp(n+1, vector<int>(m+1, 0));
 
-        // Already calculated
-        if(dp[i][j] != -1)
-            return dp[i][j];
+        for(int i = 0; i <= n; i++)
+            dp[i][0] = 0;
 
-        // Characters match
-        if(s[i-1] == t[j-1]) {
-            return dp[i][j] = 1 + lcs(i-1, j-1, s, t, dp);
+        for(int j = 0; j <= m; j++)
+            dp[0][j] = 0;
+
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+
+                if(s[i-1] == t[j-1]) {
+                    dp[i][j] = 1 + dp[i-1][j-1];
+                }
+                else {
+                    dp[i][j] = max(dp[i][j-1], dp[i-1][j]);
+                }
+            }
         }
 
-        // Characters don't match
-        return dp[i][j] = max(
-            lcs(i, j-1, s, t, dp),
-            lcs(i-1, j, s, t, dp)
-        );
+        return dp[n][m];
     }
     
     int minDistance(string word1, string word2) {
         int n = word1.size();
         int m = word2.size();
-        vector<vector<int>> dp(n+1,vector<int>(m+1,-1));
-        return n+m - 2*(lcs(n,m,word1,word2,dp));
+        
+        return n+m - 2*(lcs(word1,word2));
         
     }
 };
