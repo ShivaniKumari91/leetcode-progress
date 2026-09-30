@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1765-map-of-highest-peak](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1765-map-of-highest-peak) |
+| [4061-minimum-queen-moves-to-reach-target](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/4061-minimum-queen-moves-to-reach-target) |
 ## Two Pointers
 |  |
 | ------- |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
+| [4061-minimum-queen-moves-to-reach-target](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/4061-minimum-queen-moves-to-reach-target) |
 ## Biconnected Component
 |  |
 | ------- |
