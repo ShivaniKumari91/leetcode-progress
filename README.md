@@ -180,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0741-cherry-pickup](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0931-minimum-falling-path-sum) |
+| [1092-shortest-common-supersequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1143-longest-common-subsequence) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -204,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0127-word-ladder) |
 | [0516-longest-palindromic-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0583-delete-operation-for-two-strings) |
+| [1092-shortest-common-supersequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Graph Coloring
@@ -332,6 +334,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0583-delete-operation-for-two-strings) |
+| [1092-shortest-common-supersequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1143-longest-common-subsequence) |
 ## Rolling Hash
 |  |
