@@ -162,6 +162,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0063-unique-paths-ii) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0044-wildcard-matching](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0115-distinct-subsequences) |
@@ -355,4 +357,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [4062-transform-array-using-pair-operations](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/4062-transform-array-using-pair-operations) |
+## Greedy
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0044-wildcard-matching) |
+## Recursion
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
