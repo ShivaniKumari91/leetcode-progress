@@ -5,11 +5,10 @@ public:
 
         int n = prices.size();
 
-        vector<vector<int>> dp(n + 1, vector<int>(2, 0));
-
-        // Base Case
-        dp[n][0] = 0;
-        dp[n][1] = 0;
+        // ahead = dp[ind + 1]
+        // cur   = dp[ind]
+        vector<int> ahead(2, 0);
+        vector<int> cur(2, 0);
 
         for (int ind = n - 1; ind >= 0; ind--) {
 
@@ -20,10 +19,10 @@ public:
                 if (buy == 1) {
 
                     // Buy
-                    int buyStock = -prices[ind] + dp[ind + 1][0];
+                    int buyStock = -prices[ind] + ahead[0];
 
                     // Don't Buy
-                    int notBuy = dp[ind + 1][1];
+                    int notBuy = ahead[1];
 
                     profit = max(buyStock, notBuy);
                 }
@@ -31,19 +30,22 @@ public:
                 else {
 
                     // Sell
-                    int sell = prices[ind] + dp[ind + 1][1];
+                    int sell = prices[ind] + ahead[1];
 
                     // Don't Sell
-                    int notSell = dp[ind + 1][0];
+                    int notSell = ahead[0];
 
                     profit = max(sell, notSell);
                 }
 
-                dp[ind][buy] = profit;
+                cur[buy] = profit;
             }
+
+            // Current row becomes next row
+            ahead = cur;
         }
 
-        return dp[0][1];
+        return ahead[1];
     }
 };
 
