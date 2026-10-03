@@ -1,23 +1,32 @@
 class Solution {
 public:
-    int f(int ind, int transaction,int k,vector<vector<int>> &dp,vector<int> &prices){
-        if(ind == prices.size() || transaction == 2*k) return 0;
-
-        if(dp[ind][transaction] != -1) return dp[ind][transaction];
-
-        if(transaction % 2 == 0){
-            return dp[ind][transaction] = max(-prices[ind] + f(ind + 1,transaction + 1,k,dp,prices),0 + f(ind + 1,transaction,k,dp,prices));
-        }
-
-        else{
-            return dp[ind][transaction] = max(prices[ind] + f(ind + 1,transaction + 1,k,dp,prices),0 + f(ind + 1,transaction,k,dp,prices));
-        }
-    }
     int maxProfit(int k, vector<int>& prices) {
-        int n = prices.size();
-        vector<vector<int>> dp(n,vector<int>(2*(k+1),-1));
+                int n = prices.size();
+
+        vector<vector<int>> dp(n+1,vector<int>((2*k)+1,0));
+
+        for(int trans = 0; trans <= 2*k; trans++){
+            dp[n][trans] = 0;
+        }
+
+        for(int ind = 0; ind<n; ind++){
+            dp[ind][2*k] = 0;
+        }
+
+        for(int ind = n-1; ind>=0; ind--){
+            for(int transaction = (2*k)-1; transaction >= 0;transaction--){
+                if(transaction % 2 == 0){
+                    dp[ind][transaction] = max(-prices[ind] + dp[ind + 1][transaction + 1],
+                                                0 + dp[ind + 1][transaction]);
+                }
+                else{
+                    dp[ind][transaction] = max(prices[ind] + dp[ind+1][transaction + 1],
+                                                0 + dp[ind + 1][transaction]);
+                }
+            }
+        }
+
+        return dp[0][0];
         
-    
-       return f(0,0,k,dp,prices);
     }
 };
