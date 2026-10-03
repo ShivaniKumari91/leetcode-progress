@@ -1,51 +1,29 @@
 class Solution {
 public:
-
     int maxProfit(vector<int>& prices, int fee) {
-          int n = prices.size();
+         int n = prices.size();
 
-        // ahead = dp[ind + 1]
-        // cur   = dp[ind]
-        vector<int> ahead(2, 0);
-        vector<int> cur(2, 0);
+        int aheadBuy = 0;
+        int aheadSell = 0;
+        int curBuy,curSell;
 
         for (int ind = n - 1; ind >= 0; ind--) {
 
-            for (int buy = 0; buy <= 1; buy++) {
+            curBuy = max(
+                -prices[ind] + aheadSell,
+                aheadBuy
+            );
 
-                int profit = 0;
+            curSell = max(
+                prices[ind] - fee + aheadBuy,
+                aheadSell
+            );
 
-                if (buy == 1) {
-
-                    // Buy
-                    int buyStock = -prices[ind] + ahead[0];
-
-                    // Don't Buy
-                    int notBuy = ahead[1];
-
-                    cur[buy] = max(buyStock, notBuy);
-                }
-
-                else {
-
-                    // Sell
-                    int sell = prices[ind] - fee + ahead[1];
-
-                    // Don't Sell
-                    int notSell = ahead[0];
-
-                    cur[buy] = max(sell, notSell);
-                }
-
-                
-            }
-
-            // Current row becomes next row
-            ahead = cur;
+            aheadBuy = curBuy;
+            aheadSell = curSell;
         }
 
-        return ahead[1];
-     
+        return aheadBuy;
         
     }
 };
