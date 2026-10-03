@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
 | [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0733-flood-fill](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0741-cherry-pickup) |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0583-delete-operation-for-two-strings) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0741-cherry-pickup](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -372,6 +374,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0044-wildcard-matching](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 ## Recursion
 |  |
 | ------- |
