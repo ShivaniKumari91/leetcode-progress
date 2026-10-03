@@ -8,14 +8,10 @@ public:
         
 
         for(int ind = n-1; ind >= 0;ind--){
-            for(int buy = 0;buy<=1; buy++){
-                if(buy == 1){
-                    cur[buy] = max(-prices[ind] + ahead1[0], 0 + ahead1[1]);
-                }
-                else{
-                    cur[buy] = max(prices[ind] + ahead2[1],0 + ahead1[0]);
-                }
-            }
+            cur[1] = max(-prices[ind] + ahead1[0], 0 + ahead1[1]);
+
+            cur[0] = max(prices[ind] + ahead2[1],0 + ahead1[0]);
+
             ahead2 = ahead1;
             ahead1 = cur;
         }
