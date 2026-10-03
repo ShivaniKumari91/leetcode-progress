@@ -1,77 +1,68 @@
 class Solution {
 public:
-
     int longestSubarray(vector<int>& nums, int k) {
 
         int n = nums.size();
-        int ans = 0;
+        int maxLength = 0;
 
-        // Prefix sum
-        vector<long long> prefix(n + 1, 0);
+        // Fix the starting point of the subarray
+        for (int left = 0; left < n; left++) {
 
-        for(int i = 0; i < n; i++) {
-            prefix[i + 1] = prefix[i] + nums[i];
-        }
+            // Stores (2 * nums[right]) % k
+            // for all elements present in current subarray
+            unordered_set<int> doubleRemainders;
 
-        // Case 1: Without negation
-        unordered_map<int, int> first;
+            long long currentSum = 0;
 
-        first[0] = 0;
+            // Expand the subarray towards right
+            for (int right = left; right < n; right++) {
 
-        for(int i = 1; i <= n; i++) {
+                // Add current element to the subarray sum
+                currentSum += nums[right];
 
-            int rem = prefix[i] % k;
-            if(rem < 0) rem += k;
 
-            if(first.count(rem)) {
-                ans = max(ans, i - first[rem]);
-            }
-            else {
-                first[rem] = i;
-            }
-        }
-
-        // Case 2: Negate nums[x]
-        for(int x = 0; x < n; x++) {
-
-            // l <= x hona chahiye
-            // Isliye prefix[0] se prefix[x] tak store karo
-            unordered_map<int, int> earliest;
-
-            for(int l = 0; l <= x; l++) {
-
-                int rem = prefix[l] % k;
-                if(rem < 0) rem += k;
-
-                if(!earliest.count(rem)) {
-                    earliest[rem] = l;
-                }
-            }
-
-            // r >= x hona chahiye
-            for(int r = x; r < n; r++) {
-
-                // Need:
-                // prefix[r+1] - prefix[l] - 2*nums[x] ≡ 0
+                // If we negate x:
                 //
-                // prefix[l] ≡ prefix[r+1] - 2*nums[x]
+                // New sum = currentSum - 2*x
+                //
+                // For new sum to be divisible by k:
+                //
+                // (currentSum - 2*x) % k == 0
+                //
+                // Therefore:
+                //
+                // currentSum % k == (2*x) % k
+                //
+                // So store (2*x) % k in the set.
+                
+                long long doubleRemainder =
+                    ((2LL * nums[right]) % k + k) % k;
 
-                long long value =
-                    prefix[r + 1] - 2LL * nums[x];
+                doubleRemainders.insert(doubleRemainder);
 
-                int need = value % k;
 
-                if(need < 0) need += k;
+                // Find remainder of the current subarray sum
+                long long sumRemainder =
+                    (currentSum % k + k) % k;
 
-                if(earliest.count(need)) {
 
-                    int l = earliest[need];
+                // CASE 1:
+                // currentSum itself is divisible by k
+                //
+                // CASE 2:
+                // There is some element x in the subarray
+                // such that (2*x) % k == currentSum % k
+                //
+                // In CASE 2, negating that x makes the sum divisible by k.
+                
+                if (sumRemainder == 0 ||
+                    doubleRemainders.find(sumRemainder) != doubleRemainders.end()) {
 
-                    ans = max(ans, r - l + 1);
+                    maxLength = max(maxLength, right - left + 1);
                 }
             }
         }
 
-        return ans;
+        return maxLength;
     }
 };
