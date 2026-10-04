@@ -4,29 +4,23 @@ public:
 
         int n = nums.size();
 
-        vector<int> next(n + 1, 0);
-        vector<int> cur(n + 1, 0);
+        vector<int> dp(n, 1);
 
-        for(int ind = n - 1; ind >= 0; ind--) {
+        int maxi = 1;
 
-            for(int prev = ind - 1; prev >= -1; prev--) {
+        for(int ind = 0; ind < n; ind++) {
 
-                // Don't take nums[ind]
-                int notTake = next[prev + 1];
+            for(int prev = 0; prev < ind; prev++) {
 
-                // Take nums[ind]
-                int take = 0;
+                if(nums[ind] > nums[prev]) {
 
-                if(prev == -1 || nums[ind] > nums[prev])
-                    take = 1 + next[ind + 1];
-
-                cur[prev + 1] = max(take, notTake);
+                    dp[ind] = max(dp[ind], 1 + dp[prev]);
+                }
             }
 
-            // Current row becomes next row
-            next = cur;
+            maxi = max(maxi, dp[ind]);
         }
 
-        return next[0];
+        return maxi;
     }
 };
