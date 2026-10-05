@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0931-minimum-falling-path-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0931-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1020-number-of-enclaves) |
+| [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1463-cherry-pickup-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1463-cherry-pickup-ii) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0075-sort-colors) |
 | [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
+| [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
 ## Sorting
 |  |
 | ------- |
@@ -65,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0016-3sum-closest) |
 | [0075-sort-colors](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0075-sort-colors) |
 | [0414-third-maximum-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0414-third-maximum-number) |
+| [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
 ## Quicksort
 |  |
 | ------- |
@@ -200,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0741-cherry-pickup](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0931-minimum-falling-path-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0931-minimum-falling-path-sum) |
+| [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1143-longest-common-subsequence) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
@@ -217,6 +221,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
 | [0904-fruit-into-baskets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0904-fruit-into-baskets) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0947-most-stones-removed-with-same-row-or-column) |
+| [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
 | [4063-longest-subarray-divisible-by-k-with-at-most-one-negation-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/4063-longest-subarray-divisible-by-k-with-at-most-one-negation-i) |
 ## String
 |  |
@@ -229,6 +234,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0127-word-ladder) |
 | [0516-longest-palindromic-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0583-delete-operation-for-two-strings) |
+| [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
