@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0643-maximum-average-subarray-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0643-maximum-average-subarray-i) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0713-subarray-product-less-than-k](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0713-subarray-product-less-than-k) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0718-maximum-length-of-repeated-subarray) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0583-delete-operation-for-two-strings) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0718-maximum-length-of-repeated-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0718-maximum-length-of-repeated-subarray) |
 | [0741-cherry-pickup](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0741-cherry-pickup) |
@@ -395,4 +397,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0300-longest-increasing-subsequence) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Segment Tree
+|  |
+| ------- |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0673-number-of-longest-increasing-subsequence) |
 <!---LeetCode Topics End-->
