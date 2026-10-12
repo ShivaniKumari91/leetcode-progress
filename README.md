@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1463-cherry-pickup-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1463-cherry-pickup-ii) |
+| [1504-count-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1504-count-submatrices-with-all-ones) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1463-cherry-pickup-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1463-cherry-pickup-ii) |
+| [1504-count-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1504-count-submatrices-with-all-ones) |
 | [1631-path-with-minimum-effort](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1631-path-with-minimum-effort) |
 | [1765-map-of-highest-peak](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1765-map-of-highest-peak) |
 ## Dynamic Programming
@@ -223,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1463-cherry-pickup-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1463-cherry-pickup-ii) |
+| [1504-count-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1504-count-submatrices-with-all-ones) |
 | [1547-minimum-cost-to-cut-a-stick](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1547-minimum-cost-to-cut-a-stick) |
 | [1749-maximum-absolute-sum-of-any-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1976-number-of-ways-to-arrive-at-destination) |
@@ -423,10 +426,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0084-largest-rectangle-in-histogram) |
+| [1504-count-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1504-count-submatrices-with-all-ones) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0084-largest-rectangle-in-histogram) |
+| [1504-count-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1504-count-submatrices-with-all-ones) |
 ## Range Minimum/Maximum Query
 |  |
 | ------- |
