@@ -252,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0132-palindrome-partitioning-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0132-palindrome-partitioning-ii) |
 | [0516-longest-palindromic-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0583-delete-operation-for-two-strings) |
+| [1021-remove-outermost-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1021-remove-outermost-parentheses) |
 | [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1143-longest-common-subsequence) |
@@ -426,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0084-largest-rectangle-in-histogram) |
+| [1021-remove-outermost-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1021-remove-outermost-parentheses) |
 | [1504-count-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1504-count-submatrices-with-all-ones) |
 ## Monotonic Stack
 |  |
@@ -436,4 +438,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0084-largest-rectangle-in-histogram) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1021-remove-outermost-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1021-remove-outermost-parentheses) |
 <!---LeetCode Topics End-->
