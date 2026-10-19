@@ -332,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0078-subsets) |
 | [0191-number-of-1-bits](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0191-number-of-1-bits) |
+| [0231-power-of-two](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0231-power-of-two) |
 | [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/2220-minimum-bit-flips-to-convert-number) |
 ## Pigeonhole Principle
@@ -349,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
+| [0231-power-of-two](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0231-power-of-two) |
 | [4061-minimum-queen-moves-to-reach-target](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/4061-minimum-queen-moves-to-reach-target) |
 ## Biconnected Component
 |  |
@@ -416,6 +418,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0044-wildcard-matching) |
+| [0231-power-of-two](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0231-power-of-two) |
 ## Longest Increasing Subsequence
 |  |
 | ------- |
