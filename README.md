@@ -10,6 +10,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0084-largest-rectangle-in-histogram) |
 | [0120-triangle](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -329,6 +330,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0078-subsets) |
 | [0191-number-of-1-bits](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0191-number-of-1-bits) |
 | [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/2220-minimum-bit-flips-to-convert-number) |
@@ -379,6 +381,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0494-target-sum) |
 ## Complete Knapsack
 |  |
