@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0221-maximal-square) |
+| [0260-single-number-iii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -335,6 +336,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0191-number-of-1-bits) |
 | [0231-power-of-two](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0231-power-of-two) |
+| [0260-single-number-iii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0260-single-number-iii) |
 | [0287-find-the-duplicate-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0287-find-the-duplicate-number) |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/2220-minimum-bit-flips-to-convert-number) |
 ## Pigeonhole Principle
