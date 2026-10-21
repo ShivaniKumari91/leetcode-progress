@@ -332,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0078-subsets) |
 | [0137-single-number-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0137-single-number-ii) |
 | [0191-number-of-1-bits](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0191-number-of-1-bits) |
@@ -351,6 +352,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0029-divide-two-integers) |
 | [0062-unique-paths](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0202-happy-number) |
