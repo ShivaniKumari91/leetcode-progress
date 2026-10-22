@@ -6,80 +6,54 @@ public:
         // Total sum of all elements
         int S = accumulate(begin(nums), end(nums), 0);
 
-        // Divide the array into two halves
+        // Divide array into two equal halves
         int n = N / 2;
         int n1 = n;
         int n2 = n;
 
-        // sumsLeft[count]  -> sums of subsets having 'count' elements from left half
-        // sumsRight[count] -> sums of subsets having 'count' elements from right half
+        // Store subset sums according to the number of selected elements
         unordered_map<int, vector<int>> sumsLeft;
         unordered_map<int, vector<int>> sumsRight;
 
-        // -------------------- STEP 1: GENERATE LEFT SUBSET SUMS --------------------
-        // Use bitmasking to generate all subsets of the left half
+        // STEP 1: Generate subset sums of both halves in a single loop
         for (int mask = 0; mask < (1 << n1); mask++) {
-            int s = 0;
-            int count = 0;
+            int s1 = 0, s2 = 0;
+            int count1 = 0, count2 = 0;
 
             for (int i = 0; i < n1; i++) {
-                // If the ith bit is set, include nums[i] in this subset
                 if (mask & (1 << i)) {
-                    s += nums[i];
-                    count++;
-                }
-            }
+                    // Select element from the left half
+                    s1 += nums[i];
+                    count1++;
 
-            // Store the subset sum according to its number of elements
-            sumsLeft[count].push_back(s);
-        }
-
-        // -------------------- STEP 2: GENERATE RIGHT SUBSET SUMS --------------------
-        // Generate all subsets of the right half
-        for (int mask = 0; mask < (1 << n1); mask++) {
-            int s = 0;
-            int count = 0;
-
-            for (int i = 0; i < n1; i++) {
-                // Right half starts from index n
-                if (mask & (1 << i)) {
-                    s += nums[n + i];
-                    count++;
+                    // Select corresponding element from the right half
+                    s2 += nums[n + i];
+                    count2++;
                 }
             }
 
             // Store sums grouped by the number of selected elements
-            sumsRight[count].push_back(s);
+            sumsLeft[count1].push_back(s1);
+            sumsRight[count2].push_back(s2);
         }
 
-        // -------------------- STEP 3: SORT RIGHT SUBSET SUMS --------------------
-        // Sorting allows us to use binary search with lower_bound
+        // STEP 2: Sort right-half subset sums for binary search
         for (int count = 0; count <= n2; count++) {
             sort(begin(sumsRight[count]), end(sumsRight[count]));
         }
 
         int minValue = INT_MAX;
 
-        // -------------------- STEP 4: FIND THE MINIMUM DIFFERENCE --------------------
-        // We need to select exactly n elements for the first partition.
-        // If k elements are selected from the left half,
-        // then n-k elements must be selected from the right half.
-        for (int k = 0; k < n1; k++) {
+        // STEP 3: Find the minimum difference
+        // Select k elements from the left half
+        // and n-k elements from the right half
+        for (int k = 0; k <= n1; k++) {
             int m = n - k;
 
-            // Try every subset sum having exactly k elements from the left half
             for (int leftSubSum : sumsLeft[k]) {
 
-                // Let leftSubSum + rightSubSum be the sum of the first partition.
-                //
-                // First partition sum     = leftSubSum + rightSubSum
-                // Second partition sum    = S - (leftSubSum + rightSubSum)
-                //
-                // Difference = abs(2 * (leftSubSum + rightSubSum) - S)
-                //
-                // To make this difference minimum, we want:
-                // leftSubSum + rightSubSum to be as close to S/2 as possible.
-
+                // Find the right subset sum that makes
+                // the total selected sum as close to S/2 as possible
                 int need = (S - 2 * leftSubSum) / 2;
 
                 // Find the first right subset sum >= need
@@ -89,20 +63,17 @@ public:
                     need
                 ) - begin(sumsRight[m]);
 
-                // Check the element at lower_bound, if it exists.
-                // It is the first possible sum greater than or equal to need.
+                // Check the element at lower_bound
                 if (low < sumsRight[m].size()) {
                     int rightSubSum = sumsRight[m][low];
 
-                    // Calculate the difference between the two partition sums
                     minValue = min(
                         minValue,
                         abs(2 * (leftSubSum + rightSubSum) - S)
                     );
                 }
 
-                // Also check the previous element.
-                // It may be closer to the ideal sum than the element at lower_bound.
+                // Check the previous element as well
                 if (low - 1 >= 0) {
                     int rightSubSum = sumsRight[m][low - 1];
 
@@ -114,7 +85,7 @@ public:
             }
         }
 
-        // Return the minimum difference found
+        // Return the minimum possible difference
         return minValue;
     }
 };
