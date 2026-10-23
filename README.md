@@ -264,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Graph Coloring
 |  |
 | ------- |
@@ -450,6 +451,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0084-largest-rectangle-in-histogram](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0084-largest-rectangle-in-histogram) |
 | [1021-remove-outermost-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1021-remove-outermost-parentheses) |
 | [1504-count-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1504-count-submatrices-with-all-ones) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -463,6 +465,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1021-remove-outermost-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1021-remove-outermost-parentheses) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Meet in the Middle
 |  |
 | ------- |
