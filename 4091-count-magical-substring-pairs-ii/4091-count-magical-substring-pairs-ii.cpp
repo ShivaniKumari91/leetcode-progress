@@ -74,3 +74,15 @@ public:
         return ans;
     }
 };
+
+//String s = "aba", n = 3
+//Loop 1: Build rc
+//j	Right substring	rc[j][1]	rc[j][2]
+//2	"a"	1	0
+//1	"ba"	1	1
+//0	"aba"	1	2
+//Loop 2: Count magical pairs
+//Split j	Left substrings	Right substrings	Added
+//0	"a" (1 distinct)	"b", "ba" (1 distinct each)	2
+//1	"a", "ab"	"a"	1
+//Total ans = 2 + 1 = 3? Let's correct the counting: for s = "aba", valid pairs are "a" | "b" and "b" | "a"? Actually split j=0 gives "a" | "b" and "a" | "ba" (both distinct counts 1 vs 1 and 1 vs 2 respectively, so only the first is valid); split j=1 gives "a" | "a" and "ab" | "a" (only "a" | "a" is valid). Thus answer = 2.
