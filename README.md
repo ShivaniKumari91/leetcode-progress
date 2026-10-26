@@ -249,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0904-fruit-into-baskets) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1781-sum-of-beauty-of-all-substrings) |
 | [4063-longest-subarray-divisible-by-k-with-at-most-one-negation-i](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/4063-longest-subarray-divisible-by-k-with-at-most-one-negation-i) |
 ## String
 |  |
@@ -270,6 +271,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1143-longest-common-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1143-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1781-sum-of-beauty-of-all-substrings) |
 ## Graph Coloring
 |  |
 | ------- |
@@ -488,4 +490,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0005-longest-palindromic-substring) |
+## Counting
+|  |
+| ------- |
+| [1781-sum-of-beauty-of-all-substrings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1781-sum-of-beauty-of-all-substrings) |
 <!---LeetCode Topics End-->
