@@ -267,6 +267,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0151-reverse-words-in-a-string) |
 | [0516-longest-palindromic-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0583-delete-operation-for-two-strings) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1021-remove-outermost-parentheses) |
 | [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
 | [1092-shortest-common-supersequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1092-shortest-common-supersequence) |
@@ -437,6 +438,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Recursion
 |  |
 | ------- |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0084-largest-rectangle-in-histogram) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1021-remove-outermost-parentheses) |
 | [1504-count-submatrices-with-all-ones](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1504-count-submatrices-with-all-ones) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -474,6 +477,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bracket Sequences
 |  |
 | ------- |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1021-remove-outermost-parentheses) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## Meet in the Middle
