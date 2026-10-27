@@ -2,35 +2,33 @@
 class Solution {
 public:
     string countAndSay(int n) {
-        // Base case: 1st string is always "1"
-        string ans = "1";
+        // Base case
+        if(n == 1) {
+            return "1";
+        }
 
-        // Start from 2 because ans already stores the 1st string
-        for(int i = 2; i <= n; i++) {
-            string temp = "";  // Stores the next string
-            int j = 0;
+        // Get the previous string using recursion
+        string ans = countAndSay(n - 1);
 
-            while(j < ans.size()) {
-                int cnt = 1;  // Current character occurs at least once
+        // Generate the next string
+        string temp = "";
+        int j = 0;
 
-                // Count consecutive occurrences of the same character
-                while(j + 1 < ans.size() && ans[j] == ans[j + 1]) {
-                    cnt++;
-                    j++;
-                }
+        while(j < ans.size()) {
+            int cnt = 1;
 
-                // Append count followed by the character
-                temp += to_string(cnt) + ans[j];
-
-                // Move to the next group of characters
+            // Count consecutive same characters
+            while(j + 1 < ans.size() && ans[j] == ans[j + 1]) {
+                cnt++;
                 j++;
             }
 
-            // The newly generated string becomes the current string
-            ans = temp;
+            // Append count followed by the character
+            temp += to_string(cnt) + ans[j];
+
+            j++;
         }
 
-        // Return the nth string
-        return ans;
+        return temp;
     }
 };
