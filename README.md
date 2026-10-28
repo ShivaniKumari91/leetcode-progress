@@ -268,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0151-reverse-words-in-a-string) |
 | [0516-longest-palindromic-subsequence](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0583-delete-operation-for-two-strings) |
+| [0686-repeated-string-match](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0686-repeated-string-match) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1021-remove-outermost-parentheses) |
 | [1048-longest-string-chain](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1048-longest-string-chain) |
@@ -501,4 +502,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/1781-sum-of-beauty-of-all-substrings) |
+## String Matching
+|  |
+| ------- |
+| [0686-repeated-string-match](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0686-repeated-string-match) |
+## Z Algorithm
+|  |
+| ------- |
+| [0686-repeated-string-match](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0686-repeated-string-match) |
+## Knuth–Morris–Pratt Algorithm
+|  |
+| ------- |
+| [0686-repeated-string-match](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0686-repeated-string-match) |
+## Boyer–Moore String-Search Algorithm
+|  |
+| ------- |
+| [0686-repeated-string-match](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0686-repeated-string-match) |
 <!---LeetCode Topics End-->
