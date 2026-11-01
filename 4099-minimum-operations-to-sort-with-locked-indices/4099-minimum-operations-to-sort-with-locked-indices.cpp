@@ -1,45 +1,52 @@
-
 class Solution {
 public:
     int minOperations(vector<int>& nums, vector<int>& locked, int k) {
 
-        int ans = 0;
         int n = nums.size();
 
-        // Outer loop: Repeat passes to sort the array
-        for(int pass = 0; pass < n; pass++) {
+        // Difference array to mark inversion ranges
+        vector<int> diff(n + 1, 0);
 
-            // Check adjacent elements
-            for(int i = 0; i < n - 1; i++) {
+        int swaps = 0;
 
-                // If elements are in wrong order
-                if(nums[i] > nums[i + 1]) {
+        // Step 1: Find all inversions
+        for(int i = 0; i < n; i++) {
 
-                    // Unlock left index if locked
-                    if(locked[i] == 1) {
-                        if(k == 0) return -1;
+            for(int j = i + 1; j < n; j++) {
 
-                        ans++;
-                        locked[i] = 0;
-                        k--;
-                    }
+                // If left element is greater, it forms an inversion
+                if(nums[i] > nums[j]) {
 
-                    // Unlock right index if locked
-                    if(locked[i + 1] == 1) {
-                        if(k == 0) return -1;
+                    swaps++;
 
-                        ans++;
-                        locked[i + 1] = 0;
-                        k--;
-                    }
-
-                    // Swap adjacent elements
-                    swap(nums[i], nums[i + 1]);
-                    ans++;
+                    // Mark the range [i, j] in difference array
+                    diff[i]++;
+                    diff[j + 1]--;
                 }
             }
         }
 
-        return ans;
+        // Step 2: Calculate active inversion ranges
+        int active = 0;
+        int cnt = 0;
+
+        for(int i = 0; i < n; i++) {
+
+            // Update the number of ranges covering current index
+            active += diff[i];
+
+            // Count locked indices covered by at least one inversion range
+            if(active > 0 && locked[i] == 1) {
+                cnt++;
+            }
+        }
+
+        // Step 3: Check whether unlock limit is exceeded
+        if(cnt > k) {
+            return -1;
+        }
+
+        // Count swaps and unlock operations
+        return swaps + cnt;
     }
 };
