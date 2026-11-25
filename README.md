@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0016-3sum-closest) |
 | [0053-maximum-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0055-jump-game) |
 | [0063-unique-paths-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0064-minimum-path-sum) |
 | [0075-sort-colors](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0075-sort-colors) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0005-longest-palindromic-substring](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0005-longest-palindromic-substring) |
 | [0044-wildcard-matching](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0053-maximum-subarray) |
+| [0055-jump-game](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0055-jump-game) |
 | [0062-unique-paths](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0064-minimum-path-sum) |
@@ -442,6 +444,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0044-wildcard-matching) |
+| [0055-jump-game](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0055-jump-game) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0455-assign-cookies) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/ShivaniKumari91/leetcode-progress/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
